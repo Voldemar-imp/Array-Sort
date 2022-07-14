@@ -20,7 +20,7 @@ namespace array
 
             for (int i = 0; i < numbersArray.Length; i++)
             {
-                numbersArray[i] = random.Next(randomMin, randomMax);
+                numbersArray[i] = random.Next(randomMin, randomMax + 1);
                 Console.Write(numbersArray[i] + " ");
             }
 
