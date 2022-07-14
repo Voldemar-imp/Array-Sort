@@ -50,7 +50,6 @@ namespace array
                         Console.Write(number + " ");
                     }
                 }
-
             }          
 
             Console.WriteLine("- отсортированный массив ");
